@@ -1,0 +1,7 @@
+Test Case,Type,Input,Expected Output
+1,Normal Input,Option 1 (Add book) | Title: Python Basics | Author: Mark Lutz,Book added. ID: B101 | Python Basics | Mark Lutz | Available
+2,Boundary / Minimum Input,Library has only B101 | Option 2 (Issue) | Book ID: B101 | Member: Riya,Book B101 issued to Riya. Status: Issued | Available books: 0
+3,Invalid Input,Option 2 (Issue) | Book ID: B999,Book ID B999 not found.
+4(a),Different Valid Scenario,Option 1 | Title: Data Science | Author: Wes McKinney,Book added. ID: B102 | Data Science | Wes McKinney | Available
+4(b),Different Valid Scenario,Option 4 (Search by author) | Text: McKinney,B102 | Data Science | Wes McKinney | Available
+4(c),Different Valid Scenario,Option 3 (Return) | Book ID: B101,Book B101 returned. Status: Available
